@@ -1,0 +1,15 @@
+player-heal-message: '&bYou have healed yourself'
+other-player-heal-message: '&bYou have been healed by &6%player%&b!'
+other-player-heal-success-message: '&bYou have healed &6%other_player% &bsuccessfully!'
+
+player-feed-message: '&bYou have fed yourself'
+other-player-feed-message: '&bYou have been fed by &6%player%&b!'
+other-player-feed-success-message: '&bYou have fed &6%other_player% &bsuccessfully!'
+
+clear-chat-by-player-message: '&bThe chat has been cleared by &6%player%&b!'
+clear-chat-by-console-message: '&bThe chat has been cleared by &6console!'
+
+destroy-items-gui-title: '&cDestroy Items!'
+
+rename-not-holding-item: '&bYou need to be holding an item!'
+rename-success: '&bYou have successfully renamed the item!'

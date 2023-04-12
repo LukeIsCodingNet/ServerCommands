@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ServerCommands-0.1.0">
+    <output-path>$PROJECT_DIR$/out/artifacts/ServerCommands_0_1_0</output-path>
+    <root id="archive" name="ServerCommands-0.1.0.jar">
+      <element id="module-output" name="ServerCommands" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/plugin.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/config.yml" />
+    </root>
+  </artifact>
+</component>

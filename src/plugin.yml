@@ -1,0 +1,33 @@
+main: net.lukeiscoding.minecraft.spigot.servercommands.ServerCommands
+name: ServerCommands
+description: Provides server owners with a bunch of useful commands and tools.
+version: 0.0.1-alpha
+api-version: 1.19
+author: LukeIsCoding
+
+
+commands:
+  heal:
+    description: Heals yourself or another player
+    permission: servercommands.heal
+    permission-message: I am sorry but you do not have access to this command, please contact a server admin if you think this is an error!
+    default: op
+  feed:
+    description: Feeds yourself or another player
+    permission: servercommands.feed
+    permission-message: I am sorry but you do not have permission to use this command, please contact a server admin if you think this is an error!
+    default: op
+  destroyitems:
+    description: Opens a inventory that you can place items in it and when you close it those items will get destroyed.
+    permission: servercommands.destroyitems
+    permission-message: I am sorry but you do not have permission to use this command, please contact a server admin if you think this is an error!
+    default: op
+  clearchat:
+    description: Clears the chat.
+    permission: servercommands.clearchat
+    permission-message: I am sorry but you do not have permission to use this command, please contact a server admin if you think this is an error!
+    default: op
+  rename:
+    description: Renames the item that you are holding in your main hand.
+    permission: servercommands.rename
+    permission-message: I am sorry but you do not have permission to use this command, please contact a server admin if you think this is an error!
